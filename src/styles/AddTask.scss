@@ -1,0 +1,41 @@
+.addTask {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 20px;
+
+    padding: 30px 0;
+
+    label {
+        padding: 10px 15px;
+        background-color: #fca311;
+        color: white;
+        margin: 10px 0;
+
+        input {
+            padding: 5px 10px;
+            margin: 0 2px;
+        }
+    }
+
+
+
+    button {
+        border: 2px solid #14213d;
+        background-color: #14213d;
+        color: #ffffff;
+        padding: 10px 5px;
+        text-transform: uppercase;
+        border-radius: 10%;
+        letter-spacing: 2px;
+        cursor: pointer;
+        margin: 10px 0;
+
+    }
+
+    button:disabled {
+        border: 2px solid #999;
+        background-color: #ccc;
+        color: #666;
+    }
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.important {
+    color: red;
+}
+
+.taskList {
+    h1 {
+        text-transform: uppercase;
+        color: #14213d;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            padding: 10px 0;
+            line-height: 130%;
+            font-size: 20px;
+            border-bottom: 1px solid #fca311;
+            margin: 0 auto;
+            width: 70%;
+
+            p {
+                font-style: italic;
+            }
+
+            .buttons {
+                button {
+
+                    padding: 10px 5px;
+                    margin: 2px;
+                    text-transform: uppercase;
+                    background-color: #fca311;
+                    border: none;
+                    cursor: pointer;
+                    transition: 0.3s;
+
+                    border: 2px solid #fca311;
+
+                    &:hover {
+                        background-color: white;
+                        border: 2px solid #fca311
+                    }
+                }
+
+
+
+                button:nth-child(2) {
+                    background-color: red;
+                    color: white;
+
+                    &:hover {
+                        background-color: white;
+                        color: red;
+                        border: 2px solid red;
+                    }
+                }
+
+
+            }
+
+
+
+        }
+    }
+}
